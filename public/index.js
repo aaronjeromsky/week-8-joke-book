@@ -1,4 +1,4 @@
-/** 
+/**
  * Feel free to use this file to test your endpoints.
  */
 "use strict";
@@ -8,7 +8,7 @@
 
   function init() {
     fetch('/')
-      .then(checkStatus)
+      .then(statusCheck)
       .then(console.log);
   }
 
